@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Air.EventBus\Air.EventBus.csproj" />
+    <ProjectReference Include="..\NewLife.Core\NewLife.Core.csproj" />
+    <ProjectReference Include="..\NewLife.Redis-master\NewLife.Redis\NewLife.Redis.csproj" />
+  </ItemGroup>
+
+</Project>

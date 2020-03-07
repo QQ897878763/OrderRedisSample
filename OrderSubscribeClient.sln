@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderNotifyRedisSubscribe", "OrderNotifyRedisSubscribe\OrderNotifyRedisSubscribe.csproj", "{ADDB1DCF-A89C-4098-AEFF-BD4FC8EC5846}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Air.EventBus", "Air.EventBus\Air.EventBus.csproj", "{26DCC91B-5B0D-49CD-9507-CCCBB5113E8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewLife.Core", "NewLife.Core\NewLife.Core.csproj", "{33DEC867-247E-420D-95BD-FD78E5326181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewLife.Redis", "NewLife.Redis-master\NewLife.Redis\NewLife.Redis.csproj", "{3DFA2BFE-1605-4980-93C9-AC39AEDDC0E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Order", "Order\Order.csproj", "{38D0375B-4ACB-455F-869B-B3F380627F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDB1DCF-A89C-4098-AEFF-BD4FC8EC5846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDB1DCF-A89C-4098-AEFF-BD4FC8EC5846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDB1DCF-A89C-4098-AEFF-BD4FC8EC5846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDB1DCF-A89C-4098-AEFF-BD4FC8EC5846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DCC91B-5B0D-49CD-9507-CCCBB5113E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DCC91B-5B0D-49CD-9507-CCCBB5113E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DCC91B-5B0D-49CD-9507-CCCBB5113E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DCC91B-5B0D-49CD-9507-CCCBB5113E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DEC867-247E-420D-95BD-FD78E5326181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DEC867-247E-420D-95BD-FD78E5326181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DEC867-247E-420D-95BD-FD78E5326181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DEC867-247E-420D-95BD-FD78E5326181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFA2BFE-1605-4980-93C9-AC39AEDDC0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFA2BFE-1605-4980-93C9-AC39AEDDC0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFA2BFE-1605-4980-93C9-AC39AEDDC0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFA2BFE-1605-4980-93C9-AC39AEDDC0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D0375B-4ACB-455F-869B-B3F380627F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D0375B-4ACB-455F-869B-B3F380627F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D0375B-4ACB-455F-869B-B3F380627F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D0375B-4ACB-455F-869B-B3F380627F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9E06EEE-5F5E-4866-B77C-0D5F728DDC01}
+	EndGlobalSection
+EndGlobal
